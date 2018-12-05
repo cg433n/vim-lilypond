@@ -53,3 +53,5 @@ setlocal dictionary-=$VIM/syntax/lilypond-words dictionary+=$VIM/syntax/lilypond
 setlocal complete-=k complete+=k
 "
 setlocal showmatch
+
+setlocal commentstring=%\ %s
